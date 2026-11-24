@@ -1,0 +1,16 @@
+{
+  "name": "api-health-workspace",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix API_HEALTH run dev",
+    "dev:server": "npm --prefix API_HEALTH run dev:server",
+    "dev:client": "npm --prefix API_HEALTH run dev:client",
+    "build": "npm --prefix API_HEALTH run build",
+    "start": "npm --prefix API_HEALTH start",
+    "test": "npm --prefix API_HEALTH test",
+    "test:e2e": "npm --prefix API_HEALTH run test:e2e",
+    "user:create": "npm --prefix API_HEALTH run user:create --"
+  }
+}

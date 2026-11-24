@@ -1,0 +1,17 @@
+{
+  "name": "api-health-monitor",
+  "version": "1.0.0",
+  "description": "Full-stack real-time API health and uptime monitoring system",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/src/index.js",
+    "test": "node server/test-e2e.js",
+    "test:e2e": "node server/test-e2e.js",
+    "user:create": "node server/create-user.js"
+  }
+}

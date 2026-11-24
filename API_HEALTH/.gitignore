@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+client/dist/
+dist/
+dist-ssr/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local MongoDB data directory created by the auto-start helper
+data/
+server/data/
+*.wt
+*.wt.*
+mongod.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
